@@ -5,19 +5,15 @@
 		"email" : "dev@imkreative.com"
 	},
 	"description" : "Modules for  Nodejs Development",
-	"version" : "0.1",
+	"version" : "0.0.1",
 	"homepage" : "http://imkreative.com",
 	"repository" : {
 		"type" : "git",
-		"url" : ""
+		"url" : "https://github.com/cg219/imkreative-node-js"
 	},
 	"main" : "index.js",
-	"dependecies" : {
-
-	},
-	"devDependecies" : {
-
-	},
+	"dependecies" : {},
+	"devDependecies" : {},
 	"engines" : {
 		"node" : ">=0.8"
 	}
