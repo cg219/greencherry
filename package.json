@@ -12,7 +12,7 @@
 		"url" : "https://github.com/cg219/imkreative-node-js"
 	},
 	"main" : "index.js",
-	"dependecies" : {},
+	"dependencies" : {},
 	"devDependecies" : {},
 	"engines" : {
 		"node" : ">=0.8"
