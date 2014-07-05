@@ -94,9 +94,9 @@ server.listen();
 ```
 
 ### Links
-[Blog](http://imkreative.com)
-[Portfolio](http://portfolio.imkreative.com)
-[Twitter](http://twitter.com/kreativeking)
++ [Blog](http://imkreative.com)
++ [Portfolio](http://portfolio.imkreative.com)
++ [Twitter](http://twitter.com/kreativeking)
 
 ### License
 >Copyright (c) 2014 Clemente Gomez.
