@@ -98,6 +98,9 @@ server.listen();
 + [Portfolio](http://portfolio.imkreative.com)
 + [Twitter](http://twitter.com/kreativeking)
 
+### Donate
+[Donate via Paypal](https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=H6R39SXMYXZ9C)
+
 ### License
 >Copyright (c) 2014 Clemente Gomez.
 >All rights reserved.
