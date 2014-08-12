@@ -93,6 +93,31 @@ server.create(api.router);
 server.listen();
 ```
 
+### Adding a Route to retrieve a file
+```javascript
+var cherry = require("greencherry");
+var server = cherry.BasicServer;
+var api = cherry.BasicRouter;
+
+api.root(__dirname);
+
+api.add("/static/:file", function(req, res){
+	req.parameters.file && api.serve(req.parameters.file, {useStatic : true}, function(err, file){
+		if(err){
+			console.log(err);
+			return;
+		}
+		res.writeHead(200, {"Content-Type" : file.type});
+		res.write(file.content);
+		res.end();
+
+	});
+})
+
+server.create(api.router);
+server.listen();
+```
+
 ### Links
 + [Blog](http://imkreative.com)
 + [Portfolio](http://portfolio.imkreative.com)

@@ -5,14 +5,16 @@
 		"email" : "dev@imkreative.com"
 	},
 	"description" : "Modules for  Nodejs Development",
-	"version" : "0.1.01",
+	"version" : "0.1.3",
 	"homepage" : "http://imkreative.com",
 	"repository" : {
 		"type" : "git",
 		"url" : "https://github.com/cg219/greencherry"
 	},
 	"main" : "index.js",
-	"dependencies" : {},
+	"dependencies" : {
+		"merge" : "latest"
+	},
 	"devDependecies" : {},
 	"engines" : {
 		"node" : ">=0.8"
